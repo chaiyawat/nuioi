@@ -14,7 +14,7 @@ privileged aspect Kll_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager Kll.entityManager;
     
-    public static final List<String> Kll.fieldNames4OrderClauseFilter = java.util.Arrays.asList("");
+    public static final List<String> Kll.fieldNames4OrderClauseFilter = java.util.Arrays.asList("nui");
     
     public static final EntityManager Kll.entityManager() {
         EntityManager em = new Kll().entityManager;
